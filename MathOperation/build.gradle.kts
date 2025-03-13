@@ -49,6 +49,7 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 from(components["release"])
                 groupId = "com.github.anhquangtech"
+//                groupId = "com.ignite"
                 artifactId = "math_operation"
                 version = "1.0.0"
             }
